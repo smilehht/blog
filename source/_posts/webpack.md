@@ -1,7 +1,8 @@
 ---
-title: webpack.md
-date: 2019-04-13 12:28:55
+title: webpack使用参数说明
+date: 2017-06-22
 tags:
+    - webpack
 ---
 
 ### 1、entry 用来定义入口文件，可以是字符串或者是对象

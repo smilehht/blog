@@ -1,7 +1,7 @@
 ---
 layout: post
-title: full-screen
-date: 2019-04-13 14:16:37
+title: Web应用中实现全屏效果
+date: 2017-07-24
 tags:
     - full-screen
 ---
