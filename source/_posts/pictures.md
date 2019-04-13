@@ -6,12 +6,12 @@ tags:
 ---
 
 
-### 1.图片格式有哪些？
+### 1、图片格式有哪些？
 > BMP、JPEG、GIF、PSD、PNG、TIFF、TGA、EPS、SVG、webP、CDR、PCX、EXIF、FPX、PCD、DXF、UFO、AI、HDRI、RAW、WMF、FLIC、EMF、ICO、iconfont、、、
 
 <!-- more -->
 
-### 2.图片分类
+### 2、图片分类
 <img src="./pictures/%E5%9B%BE%E7%89%87%E5%88%86%E7%B1%BB.png" width = "50%" />
 
 
@@ -25,7 +25,7 @@ tags:
 
 
 
-**（2）. 位图(Bitmap)**
+**（2）、位图(Bitmap)**
 位图的构成原理 + 有损压缩/无损压缩
 > 位图：由一系列像素点组成的图像是位图，位图也称为点阵图
 > 特点：
@@ -72,7 +72,7 @@ tags:
 > 2、GIF，索引256色，支持动画
 
 
-### 3.常用格式介绍
+### 3、常用格式介绍
 
 介绍 png、jpg、psd、svg、webp、iconfont
 
@@ -165,7 +165,7 @@ jpg格式保存方式
 4、色域不太广,只支持256种颜色
 ```
 
-### 4.应用介绍
+### 4、应用介绍
 
 **1、前端使用何种图片格式**
 ```
