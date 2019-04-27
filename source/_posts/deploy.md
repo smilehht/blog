@@ -63,6 +63,9 @@ server {
     }
   }
 ```
+
+Nginx的相关知识，请查阅[前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s/BA_JZ_kMBFZBE7jjQDNc1Q)，这篇文章讲的很详细
+
 2、后端处理
 前端需要跨域需要后端设置Access-Control-Allow-Origin字段，设置为*或者对应域名
 
