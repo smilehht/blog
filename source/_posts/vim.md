@@ -2,6 +2,8 @@
 title: vim
 date: 2019-05-26 22:52:45
 tags:
+    - vim
+    - command
 ---
 
 
@@ -19,6 +21,8 @@ vim test.txt
 // 退出vim
 :q
 ```
+
+<!-- more -->
 
 ### vim模式
 
