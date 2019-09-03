@@ -137,3 +137,12 @@ function countProgress() {
     }, 200)
 }
 ```
+
+**8、从指定位置播放**
+通过改变video_dom.currentTime的方式来改变视频的播放进度，然而，这种方式有时会不起效。在视频准备好可以播放前设置currentTime不会生效，解决方法如下：
+```
+video_dom.addEventListener('loadedmetadata', () => {
+    video_dom.currentTime = 100
+    video_dom.play();
+});
+```
