@@ -189,7 +189,7 @@ body{
 	font-weight:bold;
 }
 .introduce span{
-	font-size:42px;
+	font-size:32px;
 	color:#11456b;
 	font-family:"SimHei";
 	font-weight:bold;
@@ -330,7 +330,7 @@ body{
 
 .introduce .helloworld .big{
 	padding-left:0px;
-	font-size: 110px;
+	font-size: 96px;
 	color:#fff;
 	border-right:2px solid #fff;
 }
@@ -345,7 +345,7 @@ body{
 
 .introduce .one  p{
 	display:inline-block;
-	font-size:20px;
+	font-size:18px;
 	color:#fff;
 	font-style:italic;
 	line-height:30px;
@@ -363,7 +363,7 @@ body{
 	display:inline-block;
 	width:180px;
 	height:150px;
-	overflow:hidden;
+	/* overflow:hidden; */
 	position:absolute;
 	bottom:0px;
 	right:10px;
