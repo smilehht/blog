@@ -1,0 +1,51 @@
+module.exports = {
+    title: '滔滔江水的个人博客',
+    description: '滔滔江水的个人博客s',
+    themeConfig: {
+        nav: [
+            { text: '首页', link: '/' },
+            { text: '博客', link: '/blog/' },
+            { text: 'Demo', link: '/demo/' },
+            {
+                text: '语言',
+                items: [
+                    { text: "初级篇", link: "/learnmore/part1/" },
+                    { text: "进阶篇", link: "/learnmore/part12/" },
+                    { text: "大神篇", link: "http://www.baidu.com" }
+                ]
+            }
+        ],
+        sidebar: {
+            '/demo/': [
+                { title: "基本配置", path: "base.md" },
+            ]
+        },
+        // 添加侧边栏
+        sidebar: 'auto',
+        sidebarDepth: 2
+    }
+    // themeConfig: {
+    //     nav: [
+    //         { text: '主页', link: '#' },
+    //         { text: 'Git', link: 'https://github.com/smilehht' },
+    //     ],
+    //     sidebar: {
+    //         '/': [
+    //             {
+    //                 title: '介绍',
+    //                 children: [
+    //                     'doc/HOWTOUSE'
+    //                 ]
+    //             },
+    //             {
+    //                 title: '相关规范',
+    //                 children: [
+    //                     'doc/home'
+    //                 ]
+    //             }
+    //         ]
+    //     },
+    //     sidebarDepth: 0,
+    //     lastUpdated: 'Last Updated'
+    // }
+}
