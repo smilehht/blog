@@ -34,55 +34,5 @@ module.exports = {
                 }
             }
         }
-        // sidebar: {
-        //     '/demo/': [
-        //         { title: "基本配置", path: "base.md" },
-        //     ],
-        //     '/about/': [
-        //         { title: "关于", path: "" },
-        //     ],
-        //     '/blog/': [
-        //         { title: "基本配置", path: "base.md" },
-        //     ],
-        //     '/home/': [
-        //         {
-        //             title: "首页2",
-        //             // path: "/home",
-        //             collapsable: false,
-        //             children: [
-        //                 { title: "index", path: "/index/" },
-        //                 { title: "index2", path: "/home/" }
-        //             ]
-        //         }
-        //         // { title: "index", path: "/home/index" },
-        //     ],
-        // },
-        // 添加侧边栏
-        // sidebar: 'auto',
-        // sidebarDepth: 2
     }
-    // themeConfig: {
-    //     nav: [
-    //         { text: '主页', link: '#' },
-    //         { text: 'Git', link: 'https://github.com/smilehht' },
-    //     ],
-    //     sidebar: {
-    //         '/': [
-    //             {
-    //                 title: '介绍',
-    //                 children: [
-    //                     'doc/HOWTOUSE'
-    //                 ]
-    //             },
-    //             {
-    //                 title: '相关规范',
-    //                 children: [
-    //                     'doc/home'
-    //                 ]
-    //             }
-    //         ]
-    //     },
-    //     sidebarDepth: 0,
-    //     lastUpdated: 'Last Updated'
-    // }
 }
