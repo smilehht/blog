@@ -2,8 +2,9 @@ module.exports = {
     title: '滔滔江水的个人博客',
     description: '滔滔江水的个人博客s',
     themeConfig: {
+        docsDir: '/docs/docs',
         nav: [
-            { text: '首页', link: '/home' },
+            // { text: '首页', link: '/home/' },
             { text: '博客', link: '/blog/' },
             { text: 'Demo', link: '/demo/' },
             { text: '关于', link: '/about/' },
@@ -16,29 +17,29 @@ module.exports = {
             //     ]
             // }
         ],
-        sidebar: {
-            '/demo/': [
-                { title: "基本配置", path: "base.md" },
-            ],
-            '/about/': [
-                { title: "关于", path: "" },
-            ],
-            '/blog/': [
-                { title: "基本配置", path: "base.md" },
-            ],
-            '/home/': [
-                {
-                    title: "首页2",
-                    // path: "/home",
-                    collapsable: false,
-                    children: [
-                        { title: "index", path: "/index/" },
-                        { title: "index2", path: "/home/" }
-                    ]
-                }
-                // { title: "index", path: "/home/index" },
-            ],
-        },
+        // sidebar: {
+        //     '/demo/': [
+        //         { title: "基本配置", path: "base.md" },
+        //     ],
+        //     '/about/': [
+        //         { title: "关于", path: "" },
+        //     ],
+        //     '/blog/': [
+        //         { title: "基本配置", path: "base.md" },
+        //     ],
+        //     '/home/': [
+        //         {
+        //             title: "首页2",
+        //             // path: "/home",
+        //             collapsable: false,
+        //             children: [
+        //                 { title: "index", path: "/index/" },
+        //                 { title: "index2", path: "/home/" }
+        //             ]
+        //         }
+        //         // { title: "index", path: "/home/index" },
+        //     ],
+        // },
         // 添加侧边栏
         // sidebar: 'auto',
         // sidebarDepth: 2
