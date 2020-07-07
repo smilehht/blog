@@ -17,6 +17,22 @@ module.exports = {
             //     ]
             // }
         ],
+        locales: {
+            '/': {
+                sidebar: {
+                    '/blog/': [
+                        {
+                            title: '博客',
+                            collapsable: false,
+                            children: [
+                                '',
+                                'blog',
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
         // sidebar: {
         //     '/demo/': [
         //         { title: "基本配置", path: "base.md" },
