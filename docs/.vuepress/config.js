@@ -8,6 +8,7 @@ module.exports = {
             { text: '博客', link: '/blog/' },
             { text: 'Demo', link: '/demo/' },
             { text: '关于', link: '/about/' },
+            { text: 'Github', link: 'https://github.com/smilehht' },
             // {
             //     text: '语言',
             //     items: [
