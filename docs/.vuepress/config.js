@@ -3,6 +3,7 @@ module.exports = {
     description: '滔滔江水的个人博客s',
     themeConfig: {
         docsDir: '/docs/docs',
+        lastUpdated: '上次更新时间',
         nav: [
             // { text: '首页', link: '/home/' },
             { text: '博客', link: '/blog/' },
@@ -28,6 +29,15 @@ module.exports = {
                             children: [
                                 '',
                                 'blog',
+                                'require',
+                            ]
+                        },
+                        {
+                            title: '2017年',
+                            collapsable: false,
+                            children: [
+                                'blog',
+                                'require'
                             ]
                         }
                     ]
