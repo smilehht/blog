@@ -1,8 +1,9 @@
+const path = require('path');
+
 module.exports = {
     title: '滔滔江水的个人博客',
     description: '滔滔江水的个人博客s',
     themeConfig: {
-        docsDir: '/docs/docs',
         lastUpdated: '上次更新时间',
         nav: [
             // { text: '首页', link: '/home/' },
@@ -19,29 +20,40 @@ module.exports = {
             //     ]
             // }
         ],
-        locales: {
-            '/': {
-                sidebar: {
-                    '/blog/': [
-                        {
-                            title: '博客',
-                            collapsable: false,
-                            children: [
-                                '',
-                                'blog',
-                                'require',
-                            ]
-                        },
-                        {
-                            title: '2017年',
-                            collapsable: false,
-                            children: [
-                                'blog',
-                                'require'
-                            ]
-                        }
+        sidebar: {
+            '/blog/': [
+                {
+                    title: '2018',
+                    collapsable: false,
+                    path: '/blog/2018/',
+                    sidebarDepth: 1,
+                    children: [
+                        '2018/summary',
+                        '2018/pictures',
+                        '2018/react-router-4'
+                    ]
+                },
+                {
+                    title: '2017',
+                    collapsable: false,
+                    path: '/blog/2017/',
+                    sidebarDepth: 1,
+                    children: [
+                        '2017/design-pattern',
+                        '2017/page',
+                        '2017/js-api',
+                        '2017/full-screen',
+                        '2017/webpack',
+                        '2017/require'
                     ]
                 }
+            ]
+        }
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@imgUrl': path.resolve(__dirname, '../assets/')
             }
         }
     }
