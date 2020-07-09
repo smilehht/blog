@@ -23,6 +23,17 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 {
+                    title: '2019',
+                    collapsable: false,
+                    path: '/blog/2019/',
+                    sidebarDepth: 1,
+                    children: [
+                        '2019/ssh',
+                        '2019/deploy',
+                        '2019/debug'
+                    ]
+                },
+                {
                     title: '2018',
                     collapsable: false,
                     path: '/blog/2018/',
