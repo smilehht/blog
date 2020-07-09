@@ -12,7 +12,7 @@ tags:
 <!-- more -->
 
 ### 2、图片分类
-<img src="./pictures/%E5%9B%BE%E7%89%87%E5%88%86%E7%B1%BB.png" width = "50%" />
+<img src='~@imgUrl/pictures/category.png' width='50%' >
 
 
 **（1）. 矢量图 **
@@ -21,7 +21,7 @@ tags:
 > 缺点：很难表现自然度高的写实图像
 
 
-<img src="./pictures/%E7%9F%A2%E9%87%8F%E5%9B%BE.png" width = "50%" />
+<img src='~@imgUrl/pictures/shiliangtu.png' width='50%'>
 
 
 
@@ -35,7 +35,7 @@ tags:
 
  
  
-<img src="./pictures/%E4%BD%8D%E5%9B%BE.png" width = "50%" />
+<img src='~@imgUrl/pictures/weitu.png' width='50%' >
 
 
 **两者差别**
@@ -107,15 +107,15 @@ png压缩的原理
 ```
 “基线”格式的JPG加载过程
 
-<img src="./pictures/%E2%80%9C%E5%9F%BA%E7%BA%BF%E2%80%9D%E6%A0%BC%E5%BC%8F%E7%9A%84JPG%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B.gif" width = "50%" />
+<img src='~@imgUrl/pictures/jixian.gif' width='50%' >
 
 “连续”格式的JPG加载过程
 
-<img src="./pictures/%E2%80%9C%E8%BF%9E%E7%BB%AD%E2%80%9D%E6%A0%BC%E5%BC%8F%E7%9A%84JPG%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B.gif" width = "50%" />
+<img src='~@imgUrl/pictures/continue.gif' width='50%' >
 
 jpg格式保存方式
 
-<img src="./pictures/jpg%E6%A0%BC%E5%BC%8F%E4%BF%9D%E5%AD%98%E6%96%B9%E5%BC%8F.png" width = "50%" />
+<img src='~@imgUrl/pictures/jpg.png' width='50%' >
 
 
 **psd**
@@ -178,7 +178,7 @@ jpg格式保存方式
 动画用 GIF。
 Logo、Icon 等小图用 PNG-8。
 ```
-<img src="./pictures/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%9B%BE%E7%89%87.jpeg" width = "50%" />
+<img src='~@imgUrl/pictures/choose.jpeg' width='50%' >
 
 
 **2、加载的图片太多、太大怎么办**
@@ -216,4 +216,4 @@ Logo、Icon 等小图用 PNG-8。
 #### 4、图片懒加载的原理
 
 
-<img src="./pictures/%E6%87%92%E5%8A%A0%E8%BD%BD.png" width = "50%" />
+<img src='~@imgUrl/pictures/lazy.png' width='50%' >

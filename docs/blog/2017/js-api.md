@@ -12,13 +12,13 @@ tags:
 
 <!-- more -->
 
-![Array](~@imgUrl/Array.png)
+![Array](~@imgUrl/api/Array.png)
 
 
 
 ### Object常见API整理
-![Object](~@imgUrl/Object.png)
+![Object](~@imgUrl/api/Object.png)
 
 ### String常见API整理
-![String](~@imgUrl/String.png)
+![String](~@imgUrl/api/String.png)
 
