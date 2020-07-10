@@ -3,7 +3,7 @@
 控制面板快捷键： Command + Option + I（Mac）或 Control + Shift + I（Windows，Linux）
 
 
-## css调试
+## 1、css调试
 
 **1.查看css**
 
@@ -54,7 +54,7 @@
 快捷键：Command+ Shift+ P（Mac）或 Control+ Shift+ P（Windows，Linux，Chrome OS），输入coverage
 
 
-## js调试
+## 2、js调试
  - 输出测试
  - 断点调试
      - DOM断点调试
@@ -110,12 +110,12 @@ debugger断点调试
 - XHR/fetch Breakpoints：[http 请求断点](https://re.m.jd.com/ks/item/999992.html)
 - DOM Breakpoints：DOM断点
 
-### source面板
+## 3、source面板
  Control + P or Command + P (Mac)
-<img src='~@imgUrl/debug/openfile.png' width='50%' >
+<img src='~@imgUrl/debug/openfile.png' >
 
 
-## network 
+## 4、network 
 
 查看资源加载情况
 
@@ -167,7 +167,7 @@ http://www.w3school.com.cn/tiy/t.asp?f=html_iframe
 
 
 
-## 性能调试
+## 5、性能调试
 
 tips：无痕模式下分析，快捷键ctrl + shift + N
 
@@ -236,7 +236,7 @@ tips：无痕模式下分析，快捷键ctrl + shift + N
 <img src='~@imgUrl/debug/cpu.png' width='50%' >
 
 
-## Application
+## 6、Application
 缓存 + 离线存储
 
 * 查看和修改本地存储与会话存储。
@@ -261,7 +261,7 @@ tips：无痕模式下分析，快捷键ctrl + shift + N
 <img src='~@imgUrl/debug/web-sql-console.png' width='50%' >
 
 
-## Security
+## 7、Security
 调试当前网页的安全和认证等问题并确保您已经在你的网站上正确地实现HTTPS
 
 <img src='~@imgUrl/debug/security.png' width='50%' >
@@ -274,12 +274,12 @@ tips：无痕模式下分析，快捷键ctrl + shift + N
 
 
 
-## Audits
+## 8、Audits
 对当前网页进行网络利用情况、网页性能方面的诊断，并给出一些优化建议
 
 <img src='~@imgUrl/debug/audits-2.png' width='50%' >
 
-## 性能测试网站
+## 9、性能测试网站
 - lighthouse
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 - [pingdom](https://tools.pingdom.com/)
@@ -287,7 +287,7 @@ tips：无痕模式下分析，快捷键ctrl + shift + N
 
 
 
-##  h5页面调试
+##  10、h5页面调试
 - Chrome DevTools 模拟手机调试
 - Chrome 远程调试(Android) + safari远程调试(iPhone)
 
@@ -303,7 +303,7 @@ tips：无痕模式下分析，快捷键ctrl + shift + N
 
 - weinre远程调试工具：不能调试JS,也不支持打断点调试，仅能用于调试页面样式，使用场景有限
 
-## 其他调试
+## 11、其他调试
 - 模拟设备感应器：More tools -> Sensors
 
 
