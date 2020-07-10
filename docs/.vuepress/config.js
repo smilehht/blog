@@ -4,7 +4,7 @@ module.exports = {
     title: '滔滔江水的个人博客',
     description: '滔滔江水的个人博客s',
     themeConfig: {
-        lastUpdated: '上次更新时间',
+        // lastUpdated: '上次更新时间',
         nav: [
             // { text: '首页', link: '/home/' },
             { text: '博客', link: '/blog/' },
@@ -23,11 +23,32 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 {
+                    title: '2020',
+                    collapsable: false,
+                    path: '/blog/2020/',
+                    sidebarDepth: 1,
+                    children: [
+                        '2020/CI&CD',
+                        '2020/abtest',
+                        '2020/react_hook',
+                        '2020/buryPoint',
+                    ]
+                },
+                {
                     title: '2019',
                     collapsable: false,
                     path: '/blog/2019/',
                     sidebarDepth: 1,
                     children: [
+                        '2019/layout',
+                        '2019/video',
+                        '2019/summary',
+                        '2019/svg',
+                        '2019/communication',
+                        '2019/wxshare',
+                        '2019/clipboard',
+                        '2019/vim',
+                        '2019/nginx',
                         '2019/ssh',
                         '2019/deploy',
                         '2019/debug'
