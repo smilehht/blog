@@ -91,5 +91,15 @@ module.exports = {
                 '@imgUrl': path.resolve(__dirname, '../assets/')
             }
         }
-    }
+    },
+    // plugins: [
+    //     [
+    //         '@vuepress/last-updated',
+    //         {
+    //             transformer: (timestamp, lang, a) => {
+    //                 return timestamp + '' + lang 
+    //             }
+    //         }
+    //     ]
+    // ],
 }
