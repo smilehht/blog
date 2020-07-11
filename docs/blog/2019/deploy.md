@@ -40,7 +40,7 @@ tags:
 
 1、借助Nginx反向代理来解决跨域
 
-```
+``` js
 // nginx.conf文件
 server {
 
@@ -69,7 +69,7 @@ Nginx的相关知识，请查阅[前端开发者必备的 Nginx 知识](https://
 2、后端处理
 前端需要跨域需要后端设置Access-Control-Allow-Origin字段，设置为*或者对应域名
 
-```
+``` js
 Access-Control-Allow-Origin: * // 允许来自任何域名的跨域请求
 或
 Access-Control-Allow-Origin: http://www.google.com // 允许来自特定域名的跨域请求
@@ -80,7 +80,7 @@ Access-Control-Allow-Origin: http://www.google.com // 允许来自特定域名�
 - 最近做的项目是前后端分离部署的，前后端不仅存在跨域问题，而且还需要携带cookie，对于这种情况需要前端在请求头带上`withCredentials: true`，具体的携带方法，不同的请求库设置方式不同，`axios.defaults.withCredentials = true`(axios)，`Vue.http.options.xhr = { withCredentials: true }`(vue-resource)，其他请求库的设置方法自行百度。
 - 当withCredentials的情况下，后端要设置Access-Control-Allow-Origin为特定域名的请求，而不能设置为`*`，而应该是具体的域名，而且需要这是Access-Control-Allow-Credentials为true
 
-```
+``` js
 Access-Control-Allow-Origin: http://www.google.com 
 Access-Control-Allow-Credentials: true
 ```

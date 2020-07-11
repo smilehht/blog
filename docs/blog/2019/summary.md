@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-```
+``` js
 <img src='a.png' onerror='imgError(this)'>
 
 function imgError(target) {
@@ -26,14 +26,14 @@ function imgError(target) {
 ```
 
 ## 2、animation动画停留在最后一帧
-```
+``` css
 animation-fill-mode: forwards;
 ```
 
 
 ## 3、从url中取value
 
-```
+``` js
 getQueryString(name) {
     let reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
     //search,查询？后面的参数，并匹配正则
@@ -51,7 +51,7 @@ getQueryString(name) {
 3、视频的总时长: vedio_dom.duration
 4、视频的播放进度: 每隔一定时间获取currentTime，通过计算currentTime / duration即可得到视频的播放进度
 
-```
+``` js
 <!-- vue示例 -->
 function countProgress() {
     this.timer = setInterval(() => {
@@ -96,7 +96,7 @@ WebP格式图片是谷歌（google）开发的一种旨在加快图片加载速�
 }
 ```
 这样看起来并没有问题，但是我们能不能把代码写的更加优雅些，一句话实现呢？大家都知道，css中有一个兄弟选择器+，可以选择后面的兄弟元素，那么我们通过给每个元素加上border-top，这样通过一句代码实现了分割线，具体代码如下：
-```
+``` css
 .item + .item {
     border-top: 1px solid #ddd;
 }

@@ -28,7 +28,7 @@ tags:
 
 ### 3、主模块中的加载位置的配置，放在主文件最前面，require.js通过回调函数来执行模块中的代码：
 ​ (1)、加载位置的配置
-```
+``` js
 require.config({
 
     ​ baseUrl: “相对路径的前部分”
@@ -44,7 +44,7 @@ require.config({
 
 ​ (2)、加载模块
 
-```
+``` js
 require([“需要加载的模块”] , function(对应模块的参数){
 
     ​ //调用
@@ -56,7 +56,7 @@ require([“需要加载的模块”] , function(对应模块的参数){
 
 ### 4、定义新模块
 ​ (1)、无依赖模块的写法
-```
+``` js
 define(function(){
 
     ​ function a(){
@@ -76,7 +76,7 @@ define(function(){
 ​ })
 ```
 ​ (2)、有依赖模块的写法
-```
+``` js
 define([“依赖模块的标识符”]，function(参数名){
 
     ​ function a(){
@@ -96,7 +96,7 @@ define([“依赖模块的标识符”]，function(参数名){
 ​ })
 ```
 5、非规范模块的加载——require.config()对象中加入shim属性
-```
+``` js
 ​ require.config({
 
     ​ paths:{

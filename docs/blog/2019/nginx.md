@@ -25,13 +25,13 @@ Nginx采用反向代理的方式，将用户的请求分发到各个server上，
 ## 2、启动与关闭
 **1、启动Nginx**
 
-```
+``` js
 nginx -c xxx/xxx/nginx.conf
 ```
 
 **2、关闭Nginx**
 
-```
+``` js
 # 查看Nginx进程号
 ps -ef|grep nginx
 
@@ -41,13 +41,13 @@ kill -QUIT 进程id
 
 **3、重启Nginx** —— 修改配置后重新加载生效
 
-```
+``` js
 nginx -s reload
 ```
 
 ## 3、通过不同端口配置虚拟机
 
-```
+``` js
 http {
     # 端口1
     server {
@@ -77,7 +77,7 @@ http {
 
 * 不同的域名可通过绑定host来测试
 
-```
+``` js
 http {
     # server1
     server {
@@ -106,7 +106,7 @@ http {
 ## 5、反向代理与负载均衡
 * upstream 配置服务器具体地址，负载均衡配置不可或缺的部分
 
-```
+``` js
 http {
     
     # 提供服务的server

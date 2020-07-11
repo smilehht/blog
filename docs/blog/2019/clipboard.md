@@ -21,7 +21,7 @@ tags:
 
 **使用方法**
 
-```
+``` js
 <!--引入js-->
 <script src="dist/clipboard.min.js"></script>
 
@@ -45,7 +45,7 @@ new ClipboardJS('.btn');
 
 * 支持剪切功能
 
-```
+``` js
 <!--剪切功能-->
 <!-- Target -->
 <textarea id="bar">Mussum ipsum cacilds...</textarea>
@@ -57,7 +57,7 @@ new ClipboardJS('.btn');
 ```
 * 支持事件反馈
 
-```
+``` js
 var clipboard = new ClipboardJS('.btn');
 
 clipboard.on('success', function(e) {
@@ -80,7 +80,7 @@ clipboard.on('error', function(e) {
 
 废话不多说，上代码：
 
-```
+``` js
 <!--html-->
 <input id="title1" type="text" value="复制功能测试" readonly="readonly" />
 
@@ -111,7 +111,7 @@ function copyToClipboard() {
 
  那么问题来了，如何才能复制成功呢？见以下代码：
  
-```
+``` js
 <!--html-->
 <textarea id='share-link' value='待复制的内容' className='share-link' readonly='readonly'>
 </textarea>

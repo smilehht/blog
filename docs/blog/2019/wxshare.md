@@ -21,7 +21,7 @@ tags:
 
 * 通过config接口注入权限验证配置
 
-```
+``` js
 wx.config({
     debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来
     appId: '', // 必填，公众号的唯一标识
@@ -35,7 +35,7 @@ wx.config({
 
 * 分享好友，分享朋友圈
 
-```
+``` js
 wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
     
     // 分享给好友
@@ -76,7 +76,7 @@ wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
 
 iOS在分享过程中并不会出现每次都分享成功的情况。经过调试发现（wx.config中debug字段设为true），wx.config没有问题，wx.updateAppMessageShareData的方法执行不成功，时而成功，时而失败，为了解决问题，在网上搜索了各种解决问题方案，都不太好使。由于项目希望尽快上线，所以在处理的时候采用了兼容性方案，如下：
 
-```
+``` js
 function wxH5Share(config) {
     /* 
     config示例：

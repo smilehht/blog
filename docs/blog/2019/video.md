@@ -31,7 +31,7 @@ video DOM对象属于媒体对象，比一般DOM对象的属性多，[video DOM�
 ## 3、隐藏video控件
 - 1、video标签去除controls属性
 - 2、部分机型仍会显示video控件，可通过css来隐藏
-```
+``` css
 video::-webkit-media-controls-enclosure {
     display:none !important;
     -webkit-appearance: none;
@@ -63,7 +63,7 @@ video::-webkit-media-controls {
 ## 4、通过canvas的drawImage实现视频播放效果
 
 对于不支持隐藏控件的浏览器，还有另一种解决办法，它的原理是将视频的每一帧通过canvas来展示，通过控制canvas来控制视频的播放，进而控制了canvas的显示，具体代码如下
-```
+``` html
 <div class='video'>
     <video id='video' controls autoplay src="video.mp4"></video>
 </div>
@@ -94,7 +94,7 @@ video::-webkit-media-controls {
 
 ## 5、小窗口播放
 在移动端中，有些机型点击视频默认全屏播放，但是有些时候需要在小窗口中播放，可以通过设置playsInline属性实现小窗口播放
-```
+``` html
 <video
     src='xxxx.mp4'
     playsInline
@@ -104,7 +104,7 @@ video::-webkit-media-controls {
 ```
 
 ## 6、设置播放器的方向(横屏、竖屏)
-```
+``` html
 横屏
 <video x5-video-player-type="h5" x5-video-orientation="landscape"/>
 
@@ -121,7 +121,7 @@ video::-webkit-media-controls {
 3、视频的总时长: vedio_dom.duration
 4、视频的播放进度: 每隔一定时间获取currentTime，通过计算currentTime / duration即可得到视频的播放进度
 
-```
+``` js
 <!-- vue示例 -->
 function countProgress() {
     this.timer = setInterval(() => {
@@ -142,7 +142,7 @@ function countProgress() {
 
 ## 8、从指定位置播放
 通过改变video_dom.currentTime的方式来改变视频的播放进度，然而，这种方式有时会不起效。在视频准备好可以播放前设置currentTime不会生效，解决方法如下：
-```
+``` js
 video_dom.addEventListener('loadedmetadata', () => {
     video_dom.currentTime = 100
     video_dom.play();

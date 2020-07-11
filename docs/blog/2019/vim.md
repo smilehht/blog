@@ -14,7 +14,7 @@ vim是一个编辑器，常用语Linux环境下的文本编辑。vim有不同的
 
 * 进入vim后为normal模式，无法输入文字
 
-```
+``` js
 // 进入vim
 vim
 // 打开文件
@@ -117,7 +117,7 @@ yy 复制一行（dd删除一行）
 * 按esc回到normal模式
 * 输入:wq保存并退出
 
-```
+``` js
 // 不同输入对应含义
 i —— insert
 a —— append
@@ -129,7 +129,7 @@ O —— open a line above，在上一行插入空白行
 
 **删除快捷键**
 
-```
+``` js
 Ctrl + h —— 删除上一个字符
 Ctrl + w —— 删除上一个单词
 Ctrl + u ——  删除当前行
@@ -173,7 +173,7 @@ n/N —— 跳转到下一个或上一个匹配
 
 `:[range]s/{pattern}/{string}/[flags]`
 
-```
+``` js
 range —— 表示搜索范围，如:10, 20表示10行到20行之间搜索，%表示全部范围
 pattern —— 表示替换的模式
 string —— 表示替换后的文本

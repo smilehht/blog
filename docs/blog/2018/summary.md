@@ -59,7 +59,7 @@ open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-
 
 
 ### 8.scss循环
-```
+``` css
 // 模板的数量
 $num: 4;
 $bg_color: #6D43DF #E02DB4 #EB8900 #2D69E0;

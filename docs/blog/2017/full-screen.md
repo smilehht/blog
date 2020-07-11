@@ -10,7 +10,7 @@ tags:
 
 <!-- more -->
 
-```
+``` js
 // 找到正确的方法  
 function launchFullScreen(element) {  
   if(element.requestFullScreen) {  
@@ -26,7 +26,7 @@ launchFullScreen(document.documentElement); // 整个页面
 launchFullScreen(document.getElementById("videoElement")); // 单独元素
 ```
 ### 取消全屏模式
-```
+``` js
 function cancelFullscreen() {  
   if(document.cancelFullScreen) {  
     document.cancelFullScreen();  

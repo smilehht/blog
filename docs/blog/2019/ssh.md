@@ -22,7 +22,7 @@ tags:
 
 **1、登录命令**
  
-```
+``` js
 ssh [-l login_name] [-p port] [user@]hostname 
 ```
 * 登录远程主机host，`ssh user@host`，user指用户名，host为IP地址
@@ -31,7 +31,7 @@ ssh [-l login_name] [-p port] [user@]hostname
 
 * 首次登录会询问用户是否继续链接远程主机，确认后会将公钥发给用户
 
-```
+``` js
 ssh hht@192.168.12.32
 shh -p 2232 hht@192.168.12.32  // 链接到主机的2232端口
 ```
@@ -46,7 +46,7 @@ scp —— secure copy，可用于在Linux下实现远程命令的拷贝，常�
 
 **scp命令使用方法**
 
-```
+``` js
 scp [param] 源地址 目标地址
 
 // 将远程的文件复制到本地

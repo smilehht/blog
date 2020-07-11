@@ -9,7 +9,7 @@ tags:
 
 <!-- more -->
 
-```
+``` js
 1、entry值为字符串，如
     entry: __dirname + './index.js'
     
@@ -44,7 +44,7 @@ tags:
 ```
 ### 3、module 模块加载器，对象类型
 
-```
+``` js
 module: {
     loaders: {
         // 正则匹配，匹配到的会进行打包
@@ -65,7 +65,7 @@ module: {
 ```
 ### 4、resolve用于配置中补全的后缀
 
-```
+``` js
 resolve: {
     // 自动扩展文件的后缀名
     extensions: ['', '.', '.json'],
@@ -80,7 +80,7 @@ resolve: {
 ```
 ### 5、plugins 添加各种额外的插件
 
-```
+``` js
 plugins: [
     // 单独将entry中的文件进行打包
     new webpack.optimize.CommonsChunkPlugin({
@@ -97,7 +97,7 @@ plugins: [
 
 ```
 ### 6、externals 通过script引入类库，但不希望webpack打包到输出文件中
-```
+``` js
 externels: {
     'react': 'window.React',
     'react-dom': 'window.ReactDOM',

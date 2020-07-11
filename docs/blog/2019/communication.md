@@ -11,7 +11,7 @@ tags:
 
 <!-- more -->
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
@@ -59,7 +59,7 @@ export default {
 
 ## 2、sync、update双向绑定
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
@@ -103,7 +103,7 @@ export default {
 ## 3、中央事件总线 
 
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
@@ -164,7 +164,7 @@ export default {
 
 ## 4、$children获取子组件的值、$parent获取父组件的值
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
@@ -211,7 +211,7 @@ export default {
 ## 5、v-model
 v-model会传一个value的属性和input的事件给子级，子级里可以通过$emit来触发父组件值的更新，在开发组件时，这种方法可很好的实现数据的双向绑定，组件的调用方的值保持和组件内部一致。
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
@@ -257,7 +257,7 @@ export default {
 ## 6、provide、inject 
 在父组件中通过provide来提供变量，在子组件中通过inject来引入。这里不仅限于子组件，子孙组件也可以，但provide、inject传递的值不是相应式的
 
-```
+``` html
 <!--父组件-->
 <template>
     <div>
