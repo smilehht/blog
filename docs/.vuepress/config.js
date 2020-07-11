@@ -82,6 +82,9 @@ module.exports = {
             ]
         }
     },
+    markdown: {
+        lineNumbers: true
+    },
     configureWebpack: {
         resolve: {
             alias: {
