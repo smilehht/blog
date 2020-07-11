@@ -1,8 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    title: '滔滔江水的个人博客',
-    description: '滔滔江水的个人博客s',
+    title: 'Hunter',
+    description: '滔滔江水的个人站点',
+    head: [
+        ['link', { rel: 'icon', href: `/hht.png` }],
+    ],
     themeConfig: {
         // lastUpdated: '上次更新时间',
         nav: [
@@ -79,6 +82,74 @@ module.exports = {
                         '2017/require'
                     ]
                 }
+            ],
+            '/demo/': [
+                {
+                    title: 'SVG',
+                    collapsable: false,
+                    path: '/demo/svg/',
+                    sidebarDepth: 1,
+                    children: [
+                        'svg/board',
+                        'svg/wave',
+                        'svg/textPath',
+                        'svg/night',
+                        'svg/motion',
+                        'svg/spring'
+                    ]
+                },
+                {
+                    title: 'Demo',
+                    collapsable: false,
+                    path: '/demo/',
+                    sidebarDepth: 1,
+                    children: [
+                        'demo/website',
+                        'demo/fullscreen',
+                    ]
+                },
+                {
+                    title: 'Html && CSS',
+                    collapsable: false,
+                    path: '/htmlcss/',
+                    sidebarDepth: 1,
+                    children: [
+                        'htmlcss/radar',
+                        'htmlcss/panorama',
+                        'htmlcss/circle',
+                        'htmlcss/csslayout',
+                        'htmlcss/newspaper',
+                        'htmlcss/world',
+                        'htmlcss/response',
+                        'htmlcss/mobile',
+                        'htmlcss/css3',
+                        'htmlcss/waterfall'
+                    ]
+                },
+                {
+                    title: 'JavaScript',
+                    collapsable: false,
+                    path: '/js/',
+                    sidebarDepth: 1,
+                    children: [
+                        'js/pratice',
+                        'js/dom',
+                        'js/chart',
+                        'js/collision',
+                        'js/slidenav',
+                        'js/sendMessage',
+                    ]
+                },
+                {
+                    title: 'React(2017)',
+                    collapsable: false,
+                    path: '/react/',
+                    sidebarDepth: 1,
+                    children: [
+                        'react/commentBox',
+                        'react/searchBox'
+                    ]
+                },
             ]
         }
     },
@@ -92,14 +163,15 @@ module.exports = {
             }
         }
     },
-    // plugins: [
-    //     [
-    //         '@vuepress/last-updated',
-    //         {
-    //             transformer: (timestamp, lang, a) => {
-    //                 return timestamp + '' + lang 
-    //             }
-    //         }
-    //     ]
-    // ],
+    plugins: [
+        // ['@vuepress/back-to-top', true],
+        // [
+        //     '@vuepress/last-updated',
+        //     {
+        //         transformer: (timestamp, lang, a) => {
+        //             return timestamp + '' + lang 
+        //         }
+        //     }
+        // ]
+    ],
 }

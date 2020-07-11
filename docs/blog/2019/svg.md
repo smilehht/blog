@@ -9,13 +9,13 @@ tags:
 
 ## 1、svg相关demo
 
-1、[svg图形画板](/demo/svg/demo.html)
+1、[svg图形画板](/demo/svg/board.html)
 
 2、[文字波浪效果](/demo/svg/wave.html)
 
 3、[路径文本](/demo/svg/textPath.html)
 
-4、[美妙黑夜](/demo/svg/night.html)
+4、[美妙月夜](/demo/svg/night.html)
 
 5、[路径动画](/demo/svg/motion.html)
 
