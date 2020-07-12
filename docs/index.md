@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /home.png
+heroImage: /blog/home.png
 actionText: 博客 →
 actionLink: /blog/
 # footer: © 2018-2020 smilehht.com 版权所有  ICP证：京ICP备18057107号
