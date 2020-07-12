@@ -87,7 +87,7 @@ module.exports = {
                 {
                     title: 'SVG',
                     collapsable: false,
-                    path: '/demo/svg/',
+                    // path: '/demo/svg/',
                     sidebarDepth: 1,
                     children: [
                         'svg/board',
@@ -101,7 +101,7 @@ module.exports = {
                 {
                     title: 'Demo',
                     collapsable: false,
-                    path: '/demo/',
+                    // path: '/demo/',
                     sidebarDepth: 1,
                     children: [
                         'demo/website',
@@ -111,7 +111,7 @@ module.exports = {
                 {
                     title: 'Html && CSS',
                     collapsable: false,
-                    path: '/htmlcss/',
+                    // path: '/demo/htmlcss/',
                     sidebarDepth: 1,
                     children: [
                         'htmlcss/radar',
@@ -129,7 +129,7 @@ module.exports = {
                 {
                     title: 'JavaScript',
                     collapsable: false,
-                    path: '/js/',
+                    // path: '/demo/js/',
                     sidebarDepth: 1,
                     children: [
                         'js/pratice',
@@ -143,7 +143,7 @@ module.exports = {
                 {
                     title: 'React(2017)',
                     collapsable: false,
-                    path: '/react/',
+                    // path: '/demo/react/',
                     sidebarDepth: 1,
                     children: [
                         'react/commentBox',
