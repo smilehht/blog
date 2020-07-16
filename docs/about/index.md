@@ -26,18 +26,18 @@
     </div>
 </div>
 
-<div class='flex-wrap' style='margin-top: 30px;text-align: center;' >
+<div class='flex-wrap' style='margin-top: 3rem;text-align: center;' >
     <div class='flex' >
         <img src='~@imgUrl/about/1.jpg' width='70%' >
         <p>个人小程序</p>
     </div>
     <div class='flex' >
-        <img src='~@imgUrl/about/2.jpg' width='70%'>
-        <p>京乐玩</p>
+        <img src='~@imgUrl/about/3.jpg' width='70%'>
+        <p>京东热卖</p>
     </div>
     <div class='flex' >
         <img src='~@imgUrl/about/2.jpg' width='70%'>
-        <p>京东热卖</p>
+        <p>京乐玩</p>
     </div>
 </div>
 
