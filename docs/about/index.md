@@ -26,6 +26,21 @@
     </div>
 </div>
 
+<div class='flex-wrap' style='margin-top: 30px;text-align: center;' >
+    <div class='flex' >
+        <img src='~@imgUrl/about/1.jpg' width='70%' >
+        <p>个人小程序</p>
+    </div>
+    <div class='flex' >
+        <img src='~@imgUrl/about/2.jpg' width='70%'>
+        <p>京乐玩</p>
+    </div>
+    <div class='flex' >
+        <img src='~@imgUrl/about/2.jpg' width='70%'>
+        <p>京东热卖</p>
+    </div>
+</div>
+
 <div class="footer" style='margin-top:3rem;padding: 1.5rem;border-top: 1px solid #eaecef;text-align:center'>
     <div class="copyright">© 2018-2020 smilehht.com 版权所有</div>
     <a href="http://www.beian.miit.gov.cn"><div class="icp">ICP证：京ICP备18057107号</div></a>
