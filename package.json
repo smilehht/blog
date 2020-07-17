@@ -19,5 +19,9 @@
     "homepage": "https://github.com/smilehht/blog#readme",
     "dependencies": {
         "vuepress": "^1.5.2"
+    },
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.5.2",
+        "@vuepress/plugin-medium-zoom": "^1.5.2"
     }
 }

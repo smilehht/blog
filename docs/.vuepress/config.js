@@ -164,6 +164,8 @@ module.exports = {
         }
     },
     plugins: [
+        ['@vuepress/back-to-top', true],
+        ['@vuepress/medium-zoom', true]
         // ['@vuepress/back-to-top', true],
         // [
         //     '@vuepress/last-updated',

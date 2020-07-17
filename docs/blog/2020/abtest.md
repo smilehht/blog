@@ -12,9 +12,9 @@ lastUpdated: 1559962161000
 ## 1、什么是ABTest
 
 ABTest是为同一个产品目标制定多个方案，让一部分用户使用A方案，另一部分用户使用B方案，…，然后通过日志记录用户的使用情况，并通过数据分析相关指标（点击率、转化率等），从而得出更符合设计目标的方案，并最终将流量全部切换至符合目标的方案。
-
+<p>
 <img src='~@imgUrl/abtest/abtest.png' width='100%' />
-
+</p>
 ::: tip 概括来说
 ABTest就是对比试验，经过对比、分析得出最优方案
 :::
@@ -24,15 +24,16 @@ ABTest就是对比试验，经过对比、分析得出最优方案
 
 - 2、推动业务持续增长
 
-<img src='~@imgUrl/abtest/why1.png' width='45%' style='margin-right: 8%'/>
-<img src='~@imgUrl/abtest/why2.png' width='45%' />
+<p><img src='~@imgUrl/abtest/why1.png' width='45%' style='margin-right: 8%'/>
+<img src='~@imgUrl/abtest/why2.png' width='45%' /></p>
 
 对于运营来说，通过ABTest可以知道哪种运营方式更有效，更能吸引用户。
 
 对于产研来说，通过ABTest可以得出哪种展现方式更能促进用户点击、下单、购买。
 
-
+<p>
 <img src='~@imgUrl/abtest/process.png' width='100%' />
+</p>
 
 通过分析、假设、试验、优化等流程后，把业务逐步向前推进，不断提升业务指标，增加收益。
 
@@ -61,9 +62,9 @@ ABTest的实验要求并行来做，因为不同的时间点，用户对页面�
 
 
 ## 4、ABTest的分类
-
+<p>
 <img src='~@imgUrl/abtest/cate.png' width='80%' />
-
+</p>
 ## 5、ABTest的实验条件
 1、**独立性**：相互独立、互不干扰
 
@@ -88,9 +89,9 @@ ABTest是有理论基础的，他的理论基础就是我们在概率论中学�
 ABTest实验的主要环节是分流过程，一个好的ABTest系统需要强大分流的算法支撑。
 
 下图是一个简单的分流策略，当用户访问页面时，由LB(负载均衡)将流量分配到各实验上。
-
+<p>
 <img src='~@imgUrl/abtest/fenliu.png' width='80%' />
-
+</p>
 用户会在打开的页面执行一些操作，比如浏览、点击、购买等行为，这些行为我们可以通过埋点上报或日志记录的方式上报给数据存储端，当数据积累一定的时间段后，对数据进行分析，进而得出实验结论。
 
 ## 7、实验数据分析
@@ -104,20 +105,24 @@ ABTest实验的主要环节是分流过程，一个好的ABTest系统需要强�
 
 注：以下数据为模拟数据，非真实数据
 
+<p>
 <img src='~@imgUrl/abtest/ana1.png' width='80%' />
+</p>
 
 **(2)、计算平均值**
-
+<p>
 <img src='~@imgUrl/abtest/ana2.png' width='80%' />
+</p>
 
 **(3)、归一化**
-
+<p>
 <img src='~@imgUrl/abtest/ana3.png' width='80%' />
+</p>
 
 **(4)、计算相对值**
-
+<p>
 <img src='~@imgUrl/abtest/ana4.png' width='80%' />
-
+</p>
 **(5)、查看指标是否在置信区间内**
 
 实验结果的变化不一定是最终的实验结论，这是因为各项指标在没做实验也会在一定的范围波动，经过概率论公式的计算，可以得出各指标的置信区间，也就是说当变化的指标在置信区间内变化时，我们认为实验对该项指标的变化不明显，当实验指标超出执行区间时，我们认为实验的变化会有影响该指标，根据变化值的大小得出影响力的深浅。
@@ -152,5 +157,6 @@ ABTest实验的主要环节是分流过程，一个好的ABTest系统需要强�
 - 4、APP用户体验
 <!-- ::: -->
 
-
+<p>
 <img src='~@imgUrl/abtest/application.png' width='80%' />
+</p>
