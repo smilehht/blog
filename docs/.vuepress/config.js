@@ -60,7 +60,7 @@ module.exports = {
                 {
                     title: '2018',
                     collapsable: false,
-                    path: '/blog/2018/',
+                    // path: '/blog/2018/',
                     sidebarDepth: 1,
                     children: [
                         '2018/summary',
@@ -71,7 +71,7 @@ module.exports = {
                 {
                     title: '2017',
                     collapsable: false,
-                    path: '/blog/2017/',
+                    // path: '/blog/2017/',
                     sidebarDepth: 1,
                     children: [
                         '2017/design-pattern',
