@@ -4,7 +4,7 @@ module.exports = {
     title: 'Hunter',
     description: '滔滔江水的个人站点',
     head: [
-        ['link', { rel: 'icon', href: `/hht.png` }],
+        ['link', { rel: 'icon', href: `blog/hht.png` }],
     ],
     themeConfig: {
         // lastUpdated: '上次更新时间',
