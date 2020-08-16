@@ -36,6 +36,7 @@ module.exports = {
                         // '2020/react_hook',
                         '2020/buryPoint',
                         '2020/fontend',
+                        '2020/linux',
                     ]
                 },
                 {
