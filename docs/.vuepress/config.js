@@ -28,7 +28,7 @@ module.exports = {
                 {
                     title: '2020',
                     collapsable: false,
-                    // path: '/blog/2020/',
+                    path: '/blog/2020/',
                     sidebarDepth: 1,
                     children: [
                         '2020/CI&CD',
@@ -42,7 +42,7 @@ module.exports = {
                 {
                     title: '2019',
                     collapsable: false,
-                    // path: '/blog/2019/',
+                    path: '/blog/2019/',
                     sidebarDepth: 1,
                     children: [
                         '2019/layout',
@@ -62,7 +62,7 @@ module.exports = {
                 {
                     title: '2018',
                     collapsable: false,
-                    // path: '/blog/2018/',
+                    path: '/blog/2018/',
                     sidebarDepth: 1,
                     children: [
                         '2018/summary',
@@ -73,7 +73,7 @@ module.exports = {
                 {
                     title: '2017',
                     collapsable: false,
-                    // path: '/blog/2017/',
+                    path: '/blog/2017/',
                     sidebarDepth: 1,
                     children: [
                         '2017/design-pattern',
