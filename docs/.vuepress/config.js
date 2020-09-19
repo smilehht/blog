@@ -31,12 +31,13 @@ module.exports = {
                     path: '/blog/2020/',
                     sidebarDepth: 1,
                     children: [
+                        '2020/dataDrivenOperation',
                         '2020/CI&CD',
                         '2020/abtest',
                         // '2020/react_hook',
                         '2020/buryPoint',
                         '2020/fontend',
-                        '2020/linux',
+                        '2020/linux'
                     ]
                 },
                 {
