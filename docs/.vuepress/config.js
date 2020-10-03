@@ -31,7 +31,16 @@ module.exports = {
                     path: '/blog/2020/',
                     sidebarDepth: 1,
                     children: [
-                        '2020/dataDrivenOperation',
+                        {
+                            title: '数据驱动',
+                            collapsable: false,
+                            path: '/blog/2020/dataDrivenOperation/index',
+                            sidebarDepth: 1,
+                            children: [
+                                '2020/dataDrivenOperation/dataDriven',
+                                '2020/dataDrivenOperation/dataManage'
+                            ]
+                        },
                         '2020/CI&CD',
                         '2020/abtest',
                         // '2020/react_hook',
