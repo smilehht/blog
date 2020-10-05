@@ -31,6 +31,7 @@ module.exports = {
                     path: '/blog/2020/',
                     sidebarDepth: 1,
                     children: [
+                        '2020/Blob',
                         {
                             title: '数据驱动',
                             collapsable: false,
