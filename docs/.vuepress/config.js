@@ -38,9 +38,9 @@ module.exports = {
                             path: '/blog/2020/dataDrivenOperation/index',
                             sidebarDepth: 1,
                             children: [
-                                '2020/dataDrivenOperation/dataDriven',
-                                '2020/dataDrivenOperation/dataManage',
-                                '2020/dataDrivenOperation/analysisMethod'
+                                '2020/dataDrivenOperation/1.dataDriven',
+                                '2020/dataDrivenOperation/2.dataManage',
+                                '2020/dataDrivenOperation/3.analysisMethod'
                             ]
                         },
                         '2020/CI&CD',
