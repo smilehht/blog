@@ -17,3 +17,4 @@
 - CNN：卷积神经网络：[卷积层](https://mp.weixin.qq.com/s/CjMDJ17CTzq9F0fnihussQ)、[池化层](https://mp.weixin.qq.com/s/DbK-bm8SGQqweBvrXn6TLA)
 - 推荐系统：[演进趋势](https://zhuanlan.zhihu.com/p/100019681)
 - 线性回归：[入门](https://juejin.cn/post/6844904006557368333)
+- GBDT: [原理和应用](https://zhuanlan.zhihu.com/p/30339807)
