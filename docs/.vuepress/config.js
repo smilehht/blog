@@ -32,6 +32,7 @@ module.exports = {
                     sidebarDepth: 1,
                     children: [
                         '2020/Blob',
+                        '2020/gitsubmodule',
                         {
                             title: '数据驱动',
                             collapsable: false,
