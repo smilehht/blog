@@ -26,6 +26,15 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 {
+                    title: '2021',
+                    collapsable: true,
+                    path: '/blog/2021/',
+                    sidebarDepth: 2,
+                    children: [
+                        '2021/reacthooks',
+                    ]
+                },
+                {
                     title: '2020',
                     collapsable: false,
                     path: '/blog/2020/',
