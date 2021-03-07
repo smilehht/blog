@@ -10,5 +10,5 @@ actionLink: /blog/
 
 <div class="footer" style='padding: 1.5rem;'>
     <div class="copyright">© 2018-2020 smilehht.com 版权所有</div>
-    <a href="http://www.beian.miit.gov.cn"><div class="icp">ICP证：京ICP备18057107号</div></a>
+    <a href="https://beian.miit.gov.cn/" target="_blank"><div class="icp">ICP证：京ICP备18057107号</div></a>
 </div>
