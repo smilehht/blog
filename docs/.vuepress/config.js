@@ -32,6 +32,7 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         '2021/reacthooks',
+                        '2021/questions',
                     ]
                 },
                 {
@@ -195,7 +196,7 @@ module.exports = {
         //     '@vuepress/last-updated',
         //     {
         //         transformer: (timestamp, lang, a) => {
-        //             return timestamp + '' + lang 
+        //             return timestamp + '' + lang
         //         }
         //     }
         // ]
