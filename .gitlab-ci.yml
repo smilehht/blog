@@ -1,0 +1,27 @@
+stages:
+  - install
+  - build
+  - deploy
+
+
+install-job
+  tags: 
+    - test
+  stage: install
+  script:
+    - npm install
+
+
+build-job
+  tags: 
+    - test
+  stage: build
+  script:
+    - npm run build
+
+deploy-job
+  tags: 
+    - test
+  stage: deploy
+  script:
+    - mv ./docs/.vuepress/dist  ./dist_test
