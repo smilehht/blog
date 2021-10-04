@@ -26,12 +26,23 @@ module.exports = {
         sidebar: {
             '/blog/': [
                 {
+                    title: '2021',
+                    collapsable: true,
+                    path: '/blog/2021/',
+                    sidebarDepth: 2,
+                    children: [
+                        '2021/reacthooks',
+                        '2021/questions',
+                    ]
+                },
+                {
                     title: '2020',
                     collapsable: false,
                     path: '/blog/2020/',
                     sidebarDepth: 1,
                     children: [
                         '2020/Blob',
+                        '2020/gitsubmodule',
                         {
                             title: '数据驱动',
                             collapsable: false,
@@ -185,7 +196,7 @@ module.exports = {
         //     '@vuepress/last-updated',
         //     {
         //         transformer: (timestamp, lang, a) => {
-        //             return timestamp + '' + lang 
+        //             return timestamp + '' + lang
         //         }
         //     }
         // ]
